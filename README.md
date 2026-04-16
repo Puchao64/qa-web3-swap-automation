@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/Puchao64/qa-web3-swap-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/Puchao64/qa-web3-swap-automation/actions/workflows/playwright.yml)
 
-End-to-end QA automation framework for a Web3 token swap interface.
-
+End-to-end QA automation framework for a Web3 token swap interface using Playwright + TypeScript.
 
 ---
 
