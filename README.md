@@ -57,6 +57,7 @@ Triggers:
 
 ## 📂 Project Structure
 
+```
 qa-web3-swap-automation/
 ├── tests/
 │   ├── smoke/
@@ -65,7 +66,7 @@ qa-web3-swap-automation/
 │   └── pages/
 ├── playwright.config.ts
 ├── package.json
----
+```
 
 ## ✅ Test Coverage
 
