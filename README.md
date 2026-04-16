@@ -114,15 +114,14 @@ npx playwright show-report
 
 ## 📸 Screenshots
 
-### Application UI
-![App](./screenshots/app.png)
+### 🖥 Application UI
+![Application UI](./screenshots/app.png)
 
-### Test Run (CLI)
-![Tests](./screenshots/tests.png)
+### 🧪 Test Run (CLI)
+![Test Run](./screenshots/test-run.png)
 
-### Playwright Report
-![Report](./screenshots/report.png)
-
+### 📊 Playwright Report
+![Playwright Report](./screenshots/report.png)
 ---
 
 ## ⚠️ Known Limitations
