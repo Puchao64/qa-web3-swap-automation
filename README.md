@@ -1,5 +1,7 @@
 # 🧪 QA Web3 Swap Automation
 
+[![CI](https://github.com/Puchao64/qa-web3-swap-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/Puchao64/qa-web3-swap-automation/actions/workflows/playwright.yml)
+
 End-to-end test automation framework for a Web3 token swap interface using Playwright + TypeScript.
 
 ---
@@ -8,7 +10,7 @@ End-to-end test automation framework for a Web3 token swap interface using Playw
 
 This project demonstrates automated testing of a decentralized token swap UI, covering core user flows, validations, and dynamic state updates.
 
-The goal is to simulate real-world QA scenarios for Web3 applications, including wallet interaction, token selection, slippage handling, and swap validation.
+The goal is to simulate real-world QA scenarios for Web3 applications, including wallet interaction, token selection, slippage handling, and swap validation logic.
 
 ---
 
@@ -18,7 +20,25 @@ The goal is to simulate real-world QA scenarios for Web3 applications, including
 - TypeScript
 - Node.js
 - Page Object Model (POM)
-- GitHub Actions (CI-ready)
+- GitHub Actions (CI)
+
+---
+
+## 🔄 Continuous Integration
+
+This project uses GitHub Actions to automatically validate test scenarios on every change.
+
+CI workflow includes:
+- Installing project dependencies
+- Installing Playwright browsers
+- Running Playwright tests in Chromium
+- Verifying test stability in a clean environment
+
+Triggers:
+- Push to `main` branch
+- Pull requests
+
+This ensures that all test scenarios are continuously validated and prevents breaking changes.
 
 ---
 
@@ -34,13 +54,12 @@ qa-web3-swap-automation/
 ├── playwright.config.ts
 ├── package.json
 ```
-
 ---
 
 ## ✅ Test Coverage
 
 ### 🔹 Smoke
-- Basic app load
+- Basic application load
 
 ### 🔹 Swap Form
 - Valid swap flow
@@ -67,21 +86,17 @@ qa-web3-swap-automation/
 
 ---
 
-## ▶️ How to Run Tests
+## ▶️ How to Run Tests Locally
 
-```bash
-npm install
-npx playwright install
-npx playwright test
-```
+npm install  
+npx playwright install  
+npx playwright test  
 
 ---
 
 ## 📊 Test Reports
 
-```bash
-npx playwright show-report
-```
+npx playwright show-report  
 
 ---
 
@@ -89,14 +104,16 @@ npx playwright show-report
 
 This project is part of a QA portfolio focused on:
 
-- Web3 testing
-- UI automation
-- Real-world scenarios simulation
-- Clean test architecture
+- Web3 application testing
+- UI automation with Playwright
+- Real-world test scenario simulation
+- Clean and scalable test architecture
+- CI integration for reliability
 
 ---
 
 ## 📌 Notes
 
-- Tests use Page Object Model for maintainability
-- Designed to be CI-ready (GitHub Actions integration planned)
+- Tests are built using Page Object Model for maintainability
+- CI pipeline ensures automated validation of all test scenarios
+- Designed to reflect production-like QA practices
